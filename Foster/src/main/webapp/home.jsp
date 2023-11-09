@@ -29,8 +29,7 @@
                                 class="text-decoration-none text-black">
                                 <img class="card-img-top" src="img/category/<c:out value="${categoria.nombre}"></c:out>.png" alt="Title"/>
                                 <div class="card-body">
-                                    <h4 class="card-title"><c:out value="${categoria.nombre}"></c:out>
-                                    ID:<c:out value="${categoria.id}"></c:out></h4>
+                                    <h4 class="card-title"><c:out value="${categoria.nombre}"></c:out></h4>
                                 </div>
                             </a>
                         </div>
